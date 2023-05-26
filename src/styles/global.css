@@ -216,7 +216,7 @@ a {
 } */
 
 p strong {
-  color: var(--color-primary);
+  font-weight: 900;
 }
 
 img {
