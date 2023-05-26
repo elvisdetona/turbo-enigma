@@ -24,13 +24,14 @@ const specialClass = [0, 3, 4, 7];
 
 
 <section class="staging">
+  <h2 class="staging-title">Staging.Frontinsampa</h2>
+
   <div class="staging-main">
-    <h2 class="staging-title">Staging.Frontinsampa</h2>
     <p class="staging-content">Quando estamos prestes a iniciar um novo projeto, a primeira parada é no Staging. É lá que toda a mágica acontece! É o momento de finalizar os componentes que já estão prontos (só falta testar, hehe), criar novos elementos e incluir aqueles que são indispensáveis em qualquer projeto. Este é um ambiente acolhedor, onde todos, palestrantes e participantes do evento, podem se sentir completamente à vontade. Aqui, queremos que todos se sintam em casa, aproveitem ao máximo e compartilhem suas ideias e conhecimentos.</p> 
     
     <p class="staging-content">Então, bem-vindos ao palco Staging.Frontinsampa, o lugar onde a criatividade e a inovação se encontram para transformar ideias em realidade! Vamos nessa, é hora de colocar a mão na massa e fazer desse evento um verdadeiro sucesso!</p>
 
-    <p class="staging-content">Alguns dos nomes já confirmados</p>
+    <p class="staging-content">Alguns dos nomes já confirmados:</p>
 
     <div class="staging-list">
       {lightningtalk.map(({ pic, name, bio, talk, twitter, linkedin, time }, index) => (
@@ -66,14 +67,17 @@ const specialClass = [0, 3, 4, 7];
     max-width: var(--wrapper-medium);
     width: 100%;
     margin: 0 auto;
-    padding: 5rem 3rem 4rem 3rem;
+    padding: 1rem 3rem 4rem 3rem;
   }
+
 
   .staging-title {
     font-size: 4rem;
     margin-bottom: 5rem;
     text-align: center;
     color: var(--color-secondary);
+    background: var(--color-accent);
+    padding: 1rem 0;
 
     @media (max-width: 600px) {
       font-size: 3rem;

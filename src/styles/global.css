@@ -81,10 +81,13 @@
   /* ==================================================== */
   --color-primary: #202020;
   --color-secondary: #FFFFFF;
-  --color-accent: #FF685C;
+  --color-accent-old: #FF685C;
+  --color-accent: #fa4541;
   --color-accent-2: #FFE8E6;
   --color-text: #202020;
   --color-border: #ffffff80;
+  --color-neon-green: #2efc98;
+  
   /* ==================================================== */
 
   --wrapper: 1400px;
@@ -229,7 +232,8 @@ img {
   padding: .5em 1em;
   background: var(--color-accent);
   text-transform: uppercase;
-  box-shadow: 3px 3px var(--color-primary);
+  box-shadow: 3px 3px var(--color-neon-green);
+  border: 2px solid var(--color-primary);
   transition: box-shadow .2s ease;
 }
 
